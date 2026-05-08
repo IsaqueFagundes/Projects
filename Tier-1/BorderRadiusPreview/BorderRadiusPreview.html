@@ -3,13 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Border Radius Preview</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="um"></div>
-    <div id="dois"></div>
-    <div id="tres"></div>
-    <div id="quatro"></div>
-    <div id="cinco"></div>
+  <div id="wrapper">
+    <div id="container">
+      <input id="h1" type="number" min="0" placeholder="Horizontal TL">
+      <input id="h2" type="number" min="0" placeholder="Horizontal TR">
+      <input id="h3" type="number" min="0" placeholder="Horizontal BR">
+      <input id="h4" type="number" min="0" placeholder="Horizontal BL">
+      <input id="v1" type="number" min="0" placeholder="Vertical TL">
+      <input id="v2" type="number" min="0" placeholder="Vertical TR">
+      <input id="v3" type="number" min="0" placeholder="Vertical BR">
+      <input id="v4" type="number" min="0" placeholder="Vertical BL">
+    </div>
+
+    <div id="conteiner">
+      <div id="cinco"></div>
+    </div>
+
+    <div id="result">
+      <button id="copyCSS" type="button">Copiar CSS</button>
+      <pre id="cssOutput"></pre>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
